@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/dist/output.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Tugas HTML & CSS</title>
+  </head>
+  <body>
+    <main class="lg:flex w-full">
+      <div class="hidden lg:block w-2/3 object-center object-cover">
+        <img src="./img/gambar.jpg" class="" alt="" />
+      </div>
+      <div
+        class="container w-full flex flex-col justify-between lg:w-1/2 mx-auto px-4 lg:p-12"
+      >
+        <form class="mt-6 flex-col gap-4" action="">
+          <div class="w-full hidden lg:flex items-center lg:mb-12 gap-3">
+            <img src="./img/logo 1.png" alt="" />
+            <p class="text-lg font-bold text-violet-950">Vision Capital</p>
+          </div>
+          <h1 class="text-xl mb-4 font-bold">Nice to see you again</h1>
+          <div>
+            <label for="" class="hidden px-4 text-sm lg:block lg:w-full py-2"
+              >Login</label
+            >
+            <input
+              class="w-full mb-3 lg:mb-4 px-4 py-2 bg-gray-100 border-gray-200 border-[1px] rounded-md placeholder:text-sm"
+              type="text"
+              placeholder="Email or phone number"
+            />
+          </div>
+          <div>
+            <label for="" class="hidden text-sm px-4 lg:block lg:w-full py-2"
+              >Password</label
+            >
+            <input
+              class="w-full px-4 py-2 mb-3 lg:mb-4 bg-gray-100 border-gray-200 border-[1px] rounded-md placeholder:text-sm"
+              type="text"
+              placeholder="Enter password"
+            />
+          </div>
+
+          <p class="text-sm text-violet-500 text-right font-normal">
+            Forgot password?
+          </p>
+          <button
+            class="w-full my-6 lg:my-8 px-4 py-2.5 bg-violet-500 text-white rounded-md"
+          >
+            Sign in
+          </button>
+          <button
+            class="w-full flex my-6 lg:my-8 justify-center items-center px-4 py-2.5 gap-2 bg-[#333333] text-white rounded-md"
+          >
+            <img src="./img/Other-Pay-Method.png" alt="" />
+            <p class="text-sm">Or sign in with Google</p>
+          </button>
+          <p class="text-sm text-center justify-center flex gap-2">
+            Don't have an account?
+            <a href="#" class="text-violet-500">Sign up now</a>
+          </p>
+        </form>
+
+        <div
+          class="w-full lg:hidden flex justify-center items-center gap-3 h-[35vh]"
+        >
+          <img src="./img/logo 1.png" alt="" />
+          <p class="text-lg font-bold text-violet-950">Vision Capital</p>
+        </div>
+        <p
+          class="text-xs font-['Roboto'] text-[#666666] text-center pb-28 lg:pb-0"
+        >
+          &copy; Perfect Login 2021
+        </p>
+      </div>
+    </main>
+  </body>
+</html>
